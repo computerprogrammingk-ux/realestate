@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/toolbar_bg02">
+
+        <TextView
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter Properties"
+            android:layout_centerHorizontal="true"
+            android:padding="8dp"
+            android:textColor="@color/white"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_buildings"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:layout_above="@+id/tabsLl"
+            android:layout_marginEnd="30dp"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/tabsLl"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/shape_rounded_white_50t"
+            android:layout_centerHorizontal="true">
+
+
+            <TextView
+                android:id="@+id/tabBuyTv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_rounded_white"
+                android:text="Buy"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/tabRentTv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Rent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/propertyCategoryTil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:startIconDrawable="@drawable/category_gray">
+
+        <AutoCompleteTextView
+            android:id="@+id/propertyCategoryAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/propertySubCategoryTil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:startIconDrawable="@drawable/category_gray">
+
+        <AutoCompleteTextView
+            android:id="@+id/propertySubCategoryAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        style="@style/TextAppearance.Material3.TitleMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price Range"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/priceMinTil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:hint="Minimum"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:startIconDrawable="@drawable/wallet_gray">
+            <EditText
+                android:id="@+id/priceMinEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:inputType="numberDecimal"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/priceMaxTil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:hint="Maximum"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:startIconDrawable="@drawable/wallet_gray">
+            <EditText
+                android:id="@+id/priceMaxEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:inputType="numberDecimal"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/resetBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="@dimen/m_button_height"
+            android:layout_marginEnd="5dp"
+            android:text="Reset"
+            android:backgroundTint="@android:color/transparent"
+            android:textColor="?attr/colorOnSurface"
+            app:strokeWidth="1dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/applyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="@dimen/m_button_height"
+            android:layout_marginEnd="5dp"
+            android:text="Apply Filter"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MyPropertyListActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/toolbar_bg02"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/toolbarBackBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_white"
+            android:background="@android:color/transparent"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/toolbarTitleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Ads"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textColor="?attr/colorOnPrimary"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/searchCv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="10dp"
+            app:contentPadding="5dp"
+            android:layout_below="@+id/toolbarTitleTv"
+            app:strokeWidth="0dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/searchEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/search_gray"
+                    android:drawablePadding="5dp"
+                    android:hint="Search"
+                    android:padding="8dp"
+                    android:textSize="12dp"/>
+
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/propertiesRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row_property"
+        android:layout_below="@+id/toolbarRl"/>
+
+
+
+
+</RelativeLayout>

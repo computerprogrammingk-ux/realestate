@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp"
+    app:strokeWidth=".5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/profileRl"
+            android:layout_width="130dp"
+            android:layout_height="110dp">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/propertyIv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:background="@color/colorPrimary"
+                app:shapeAppearanceOverlay="@style/ImageStyle_Corners_Rounded"
+                tools:src="@tools:sample/backgrounds/scenic"
+                android:scaleType="centerCrop"/>
+
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+               android:id="@+id/favoriteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:alpha=".8"
+                android:src="@drawable/fav_no_black"
+                android:tint="@color/white"
+                android:backgroundTint="?attr/colorPrimary"
+                android:background="?attr/colorPrimary"
+                app:fabCustomSize="40dp"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/profileRl"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:text="@tools:sample/lorem[10]"/>
+
+        <TextView
+            android:id="@+id/descriptionTv"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTv"
+            android:layout_toEndOf="@+id/profileRl"
+            android:text="@tools:sample/lorem[10]"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/purposeCv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionTv"
+            android:layout_toEndOf="@+id/profileRl"
+            android:layout_marginVertical="5dp"
+            app:strokeWidth="1dp">
+            <TextView
+                android:id="@+id/purposeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.Material3.LabelSmall"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="5dp"
+                android:text="@tools:sample/lorem[1]"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/categoryCv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionTv"
+            android:layout_toEndOf="@+id/purposeCv"
+            android:layout_marginStart="4dp"
+            android:layout_marginVertical="5dp"
+            app:strokeWidth="1dp">
+            <TextView
+                android:id="@+id/categoryTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.Material3.LabelSmall"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="5dp"
+                android:text="@tools:sample/lorem[1]"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/subCategoryCv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionTv"
+            android:layout_toEndOf="@+id/categoryCv"
+            android:layout_marginStart="4dp"
+            android:layout_marginVertical="5dp"
+            app:strokeWidth="1dp">
+            <TextView
+                android:id="@+id/subCategoryTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.Material3.LabelSmall"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="5dp"
+                android:text="@tools:sample/lorem[1]"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/addressTv"
+            style="@style/TextAppearance.Material3.BodyMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@tools:sample/lorem[10]"
+            android:layout_below="@id/subCategoryCv"
+            android:layout_toEndOf="@+id/profileRl"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/dateTv"
+            style="@style/TextAppearance.Material3.LabelMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@tools:sample/date/ddmmyy"
+            android:layout_toEndOf="@+id/profileRl"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/time_gray"
+            android:drawablePadding="4dp"
+            android:layout_below="@+id/addressTv"/>
+
+
+        <TextView
+            android:id="@+id/priceSymbolTv"
+            style="@style/TextAppearance.Material3.LabelLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addressTv"
+            android:layout_toStartOf="@+id/priceTv"
+            android:layout_marginTop="8dp"
+            android:text="@string/price_symple"/>
+
+
+        <TextView
+            android:id="@+id/priceTv"
+            style="@style/TextAppearance.Material3.LabelLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addressTv"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:text="1500"/>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

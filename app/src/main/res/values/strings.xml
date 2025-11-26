@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Real Estate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">xxxxxxxxxxx.apps.googleusercontent.com</string>
+    <string name="no_account_register">No Account?<b>Register</b> </string>
+    <string name="have_account_login">Have Account? <b>Login</b> </string>
+    <string name="didn_t_receive_otp_resend">Didn\'t Receive OTP? <b>Resend</b></string>
+    <string name="forgot_password_recover">Forgot Password? <b>Recover</b> </string>
+    <string name="forgot_password_enter_your_register_email_we_will_send_password_recovery_instructions_to_it">Forgot Password? Enter your register email, we will send password recovery instructions to it.</string>
+    <string name="category_homes">Homes</string>
+    <string name="category_plots">Plots</string>
+    <string name="category_commercial">Commercial</string>
+
+    <string name="price_symple">$</string>
+
+<!--    <string name="my_maps_api_key">AIzaSyA6Re5wl_sxjYQPWkDRUyUvgkS5PUwHbgM</string>-->
+
+    <string name="my_maps_api_key">YOUR_REAL_ANDROID_MAPS_API_KEY</string>
+
+
+    <string name="skip_now">Skip Now</string>
+    <string name="continue_with_phone">Continue with phone number</string>
+    <string name="continue_with">Continue with</string>
+    <string name="email">Email</string>
+    <string name="google">Google</string>
+    <string name="password">password</string>
+    <string name="forgot_password_recover1">Forgot Password? Recover it</string>
+
+
+    <string name="login">Login</string>
+    <string name="login_label">Login To Your Account</string>
+
+
+    <string name="search_hint">Search</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="filter_selected">Showing All</string>
+    <string name="filter">Filter</string>
+    <string name="home">Home</string>
+    <string name="chats">Chats</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+
+
+    <string name="profile_name">Piper Whitehead</string>
+    <string name="email_label">Email</string>
+    <string name="phone_label">Phone</string>
+    <string name="dob_label">DOP</string>
+    <string name="membersince_label">Member Since</string>
+    <string name="verification_label">Account Status</string>
+    <string name="preference">Preference</string>
+    <string name="post_ad_title">Looking to sell or rent out your property?</string>
+    <string name="post_ad_button">Post an Ad</string>
+    <string name="logout">Logout</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="my_ads">My Ads</string>
+    <string name="change_password">Change Password</string>
+    <string name="verify_account">Verify Account</string>
+    <string name="delete_account">Delete Account</string>
+
+
+    <string name="post_ad_title2">Post an Ad</string>
+    <string name="search">Search</string>
+    <string name="category_homes1">Homes</string>
+    <string name="category_plots1">Plots</string>
+    <string name="category_commercial1">Commercial</string>
+    <string name="property_subcategory">Property Subcategory</string>
+    <string name="floors">Floors</string>
+    <string name="bedrooms">Bed Rooms</string>
+    <string name="bathrooms">Bath Rooms</string>
+    <string name="area_size">Area Size</string>
+    <string name="sq_ft">Sq.ft</string>
+    <string name="location">Location</string>
+    <string name="price">Price</string>
+    <string name="details">Details</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="pick_images">Pick Images</string>
+
+    <string name="purpose">Purpose</string>
+    <string name="sell">Sell</string>
+    <string name="rent">Rent</string>
+    <string name="type">Type</string>
+    <string name="specifications">Specifications</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="category">Category</string>
+    <string name="reach_buyers_or_tenants">Reach thousands of the buyers/tenants quickly</string>
+    <string name="address">Address</string>
+    <string name="not_verified">Not Verified</string>
+
+
+
+
+    <string name="property_details">Property Details</string>
+        <string-array name="property_types">
+            <item>Homes</item>
+            <item>Plots</item>
+            <item>Commercial</item>
+        </string-array>
+
+        <string-array name="property_types_homes">
+            <item>House</item>
+            <item>Flat</item>
+            <item>Portion</item>
+            <item>Lower Portion</item>
+            <item>Farm House</item>
+            <item>Room</item>
+            <item>Penthouse</item>
+        </string-array>
+
+        <string-array name="property_types_plots">
+            <item>Residential Plot</item>
+            <item>Commercial Plots</item>
+            <item>Agricultural Plot</item>
+            <item>Industrial Plot</item>
+            <item>Plot File</item>
+            <item>Plot Form</item>
+        </string-array>
+
+        <string-array name="property_types_commercial">
+            <item>Office</item>
+            <item>Shop</item>
+            <item>Warehouse</item>
+            <item>Building</item>
+            <item>Other</item>
+        </string-array>
+
+        <string-array name="property_area_size_unit">
+            <item>Square Feet</item>
+            <item>Square Yards</item>
+            <item>Square Meters</item>
+            <item>Marla</item>
+            <item>Kanal</item>
+        </string-array>
+
+
+
+    <string name="sold">Sold</string>
+    <string name="seller_info">Seller Info</string>
+    <string name="chat">Chat</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    <string name="map">MAP</string>
+
+    <string name="select_city">اختر المحافظة</string>
+    <string-array name="yemen_governorates">
+        <item>صنعاء</item>
+        <item>عدن</item>
+        <item>تعز</item>
+        <item>الحديدة</item>
+        <item>إب</item>
+        <item>ذمار</item>
+        <item>المكلا</item>
+        <item>حضرموت</item>
+        <item>المحويت</item>
+        <item>صعدة</item>
+        <item>عمران</item>
+        <item>ريمة</item>
+        <item>البيضاء</item>
+        <item>الضالع</item>
+        <item>لحج</item>
+        <item>أبين</item>
+        <item>شبوة</item>
+        <item>مأرب</item>
+        <item>الجوف</item>
+        <item>حجة</item>
+    </string-array>
+
+
+    <!-- Toolbar / Login -->
+    <string name="login_phone_label">Login To Your Account</string>
+
+    <!-- Phone input -->
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="phone_start_icon_desc">Phone icon</string>
+
+    <!-- Buttons -->
+    <string name="send_otp_button">Send OTP</string>
+    <string name="verify_otp_button">Verify OTP</string>
+
+    <!-- OTP input -->
+    <string name="otp_hint">OTP</string>
+    <string name="otp_input_text">OTP</string>
+
+    <!-- Resend / helper -->
+
+    <!-- Generic -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
+
+
+

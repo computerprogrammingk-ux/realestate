@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">العقارات</string>
+    <string name="have_account_login">هل لديك حساب؟ <b>تسجيل الدخول</b></string>
+    <string name="didn_t_receive_otp_resend">لم تستلم OTP؟ <b>إعادة إرسال</b></string>
+    <string name="forgot_password_recover">هل نسيت كلمة المرور؟ <b>استرجاعها</b></string>
+    <string name="forgot_password_enter_your_register_email_we_will_send_password_recovery_instructions_to_it">هل نسيت كلمة المرور؟ أدخل بريدك الإلكتروني المسجل وسنرسل لك تعليمات استعادة كلمة المرور.</string>
+    <string name="category_homes">المنازل</string>
+    <string name="category_plots">القطع الأرضية</string>
+    <string name="category_commercial">التجاري</string>
+    <string name="my_maps_api_key">AIzaSyA6Re5wl_sxjYQPWkDRUyUvgkS5PUwHbgM</string>
+
+
+    <string name="price_symple">د.إ</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="skip_now">تخطي الآن</string>
+    <string name="continue_with_phone">استمر مع رقم الهاتف</string>
+    <string name="continue_with">استمر مع</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="google">جوجل</string>
+    <string name="login_label">تسجيل الدخول إلى حسابك</string>
+    <string name="password">كلمة المرور</string>
+
+    <string name="no_account_register">ليس لديك حساب؟<b>سجل الآن</b>
+        </string>
+
+    <string name="forgot_password_recover1">هل نسيت كلمة المرور؟<b>استعدها</b>
+        </string>
+    <string name="login">تسجيل الدخول</string>
+
+    <string name="search_hint">ابحث</string>
+    <string name="choose_location">اختر الموقع</string>
+    <string name="filter_selected">عرض الكل</string>
+    <string name="filter">تصفية</string>
+    <string name="home">الرئيسية</string>
+    <string name="chats">الدردشات</string>
+    <string name="favorites">المفضلة</string>
+    <string name="profile">الملف الشخصي</string>
+
+
+    <string name="profile_name">بايبر وايتهيد</string>
+    <string name="email_label">البريد الإلكتروني</string>
+    <string name="phone_label">الهاتف</string>
+    <string name="dob_label">تاريخ الميلاد</string>
+    <string name="membersince_label">عضو منذ</string>
+    <string name="verification_label">حالة الحساب</string>
+    <string name="preference">التفضيلات</string>
+    <string name="post_ad_title">هل ترغب في بيع أو تأجير عقارك؟</string>
+    <string name="post_ad_button">نشر إعلان</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="my_ads">إعلاناتي</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="verify_account">تحقق من الحساب</string>
+    <string name="delete_account">حذف الحساب</string>
+
+
+    <string name="post_ad_title2">نشر إعلان</string>
+    <string name="search">بحث</string>
+    <string name="category_homes1">منازل</string>
+    <string name="category_plots1">قطع الأراضي</string>
+    <string name="category_commercial1">تجاري</string>
+    <string name="property_subcategory">الفئة الفرعية للعقار</string>
+    <string name="floors">عدد الطوابق</string>
+    <string name="bedrooms">غرف النوم</string>
+    <string name="bathrooms">دورات المياه</string>
+    <string name="area_size">مساحة العقار</string>
+    <string name="sq_ft">قدم مربع</string>
+    <string name="location">الموقع</string>
+    <string name="price">السعر</string>
+    <string name="address">العنوان</string>
+    <string name="details">التفاصيل</string>
+    <string name="title">العنوان</string>
+    <string name="description">الوصف</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="pick_images">اختيار الصور</string>
+    <string name="category">الفئة</string>
+    <string name="purpose">الهدف</string>
+    <string name="sell">بيع</string>
+    <string name="rent">إيجار</string>
+    <string name="type">النوع</string>
+    <string name="specifications">المواصفات</string>
+    <string name="property_details">تفاصيل العقار</string>
+    <string name="sub_category">الفئة الفرعية</string>
+    <string name="not_verified">غير موثوق</string>
+    <string name="reach_buyers_or_tenants">وصل إلى الآلاف من المشترين / المستأجرين بسرعة</string>
+
+
+
+
+        <string-array name="property_types">
+            <item>منازل</item>
+            <item>قطع أراضي</item>
+            <item>تجاري</item>
+        </string-array>
+
+        <string-array name="property_types_homes">
+            <item>منزل</item>
+            <item>شقة</item>
+            <item>جزء</item>
+            <item>الجزء السفلي</item>
+            <item>البيت الريفي</item>
+            <item>غرفة</item>
+            <item>الطابق العلوي</item>
+        </string-array>
+
+        <string-array name="property_types_plots">
+            <item>قطعة أرض سكنية</item>
+            <item>قطعة أرض تجارية</item>
+            <item>قطعة أرض زراعية</item>
+            <item>قطعة أرض صناعية</item>
+            <item>ملف قطعة الأرض</item>
+            <item>نموذج الأرض</item>
+        </string-array>
+
+        <string-array name="property_types_commercial">
+            <item>مكتب</item>
+            <item>محل</item>
+            <item>مستودع</item>
+            <item>مبنى</item>
+            <item>آخر</item>
+        </string-array>
+
+
+    <string-array name="property_area_size_unit">
+        <item>قدم مربع</item>
+        <item>يارد مربع</item>
+        <item>متر مربع</item>
+        <item>مرلا</item>
+        <item>كانال</item>
+    </string-array>
+
+
+
+    <string name="sold">مباع</string>
+    <string name="seller_info">معلومات البائع</string>
+    <string name="chat">دردشة</string>
+    <string name="call">اتصال</string>
+    <string name="sms">رسالة نصية</string>
+    <string name="map">خريطة</string>
+
+    <string name="select_city">اختر المحافظة</string>
+    <string-array name="yemen_governorates">
+        <item>صنعاء</item>
+        <item>عدن</item>
+        <item>تعز</item>
+        <item>الحديدة</item>
+        <item>إب</item>
+        <item>ذمار</item>
+        <item>المكلا</item>
+        <item>حضرموت</item>
+        <item>المحويت</item>
+        <item>صعدة</item>
+        <item>عمران</item>
+        <item>ريمة</item>
+        <item>البيضاء</item>
+        <item>الضالع</item>
+        <item>لحج</item>
+        <item>أبين</item>
+        <item>شبوة</item>
+        <item>مأرب</item>
+        <item>الجوف</item>
+        <item>حجة</item>
+    </string-array>
+
+
+
+    <!-- Toolbar / Login -->
+    <string name="login_phone_label">تسجيل الدخول إلى حسابك</string>
+
+    <!-- Phone input -->
+    <string name="phone_number_hint">رقم الهاتف</string>
+    <string name="phone_start_icon_desc">أيقونة الهاتف</string>
+
+    <!-- Buttons -->
+    <string name="send_otp_button">إرسال رمز التحقق</string>
+    <string name="verify_otp_button">تحقق من الرمز</string>
+
+    <!-- OTP input -->
+    <string name="otp_hint">رمز التحقق</string>
+    <string name="otp_input_text">الرمز</string>
+
+    <!-- Resend / helper -->
+
+    <!-- Generic -->
+    <string name="ok">حسناً</string>
+    <string name="cancel">إلغاء</string>
+
+
+
+</resources>
+
+
+
